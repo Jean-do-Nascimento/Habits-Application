@@ -3,6 +3,8 @@ import cors from '@fastify/cors'
 import { appRoutes } from "./routes"
 import { notificationRoutes } from './lib/notifications-routes'
 
+const port = process.env.PORT || 3333
+
 const app = Fastify()
 
 app.register(cors)
