@@ -3,8 +3,6 @@ import cors from '@fastify/cors'
 import { appRoutes } from "./routes"
 import { notificationRoutes } from './lib/notifications-routes'
 
-const port = process.env.PORT || 3333
-
 const app = Fastify()
 
 app.register(cors)
@@ -14,8 +12,11 @@ app.register(notificationRoutes)
 
 
 app.listen({
-  port: 3333 || 'https://habits-application-pk91x1qkb-jean-do-nascimento.vercel.app'
- // host: '0.0.0.0'
+  port: 3333,
+  host: '0.0.0.0'
 }).then(() => {
   console.log('HTTP Server running!')
 })
+
+
+//Adress?:  https://habits-application.vercel.app 
