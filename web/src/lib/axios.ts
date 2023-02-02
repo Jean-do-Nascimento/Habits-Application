@@ -2,5 +2,5 @@ import axios from 'axios'
 
 export const api = axios.create({
 
-    baseURL: 'http://localhost:3333'
+    baseURL: 'https://habits-application-7ypq8jicj-jean-do-nascimento.vercel.app'
 })
