@@ -12,8 +12,8 @@ app.register(notificationRoutes)
 
 
 app.listen({
-  port: 3333,
-  host: '0.0.0.0'
+  port: 3333 || 'https://habits-application-pk91x1qkb-jean-do-nascimento.vercel.app'
+ 
 }).then(() => {
   console.log('HTTP Server running!')
 })
