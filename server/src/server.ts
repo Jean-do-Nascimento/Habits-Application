@@ -6,7 +6,7 @@ import { notificationRoutes } from './lib/notifications-routes'
 
 const app = Fastify()
 const port = process.env.PORT || 3333
-
+  
 app.register(cors)
 app.register(appRoutes)
 app.register(notificationRoutes)
@@ -20,4 +20,3 @@ app.listen({
 })
 
 
-//Adress?:  https://habits-application.vercel.app 
