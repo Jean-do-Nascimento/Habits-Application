@@ -2,5 +2,5 @@ import axios from 'axios'
 
 export const api = axios.create({
 
-    baseURL: 'https://habits-application-jktj.vercel.app'
+    baseURL: 'https://habits-application.vercel.app/habits'
 })
