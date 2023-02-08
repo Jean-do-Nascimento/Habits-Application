@@ -5,7 +5,7 @@ import { notificationRoutes } from './lib/notifications-routes'
 
 
 const app = Fastify()
-const port = process.env.PORT 
+const port = process.env.PORT || 3333
 
 app.register(cors)
 app.register(appRoutes)
