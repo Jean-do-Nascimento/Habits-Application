@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import { ProgressBar } from './ProgressBar';
 import dayjs from 'dayjs';
 import { HabitsList } from './HabitsList';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 interface HabitDayProps {
   date: Date
